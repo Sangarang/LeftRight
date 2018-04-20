@@ -10,3 +10,28 @@ position: absolute;
 	 background-color: white;
 
 }
+.bt1{
+position: absolute;
+     margin: auto;
+     top: 10;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: #f2b179;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.game{
+	position: absolute;
+	margin: auto;
+	width: 320px;
+	height: 320px;
+	  top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;

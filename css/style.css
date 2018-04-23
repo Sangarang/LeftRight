@@ -26,13 +26,3 @@ position: absolute;
 	 outline: 0;
 	 cursor: pointer;
 }
-.game{
-	position: absolute;
-	margin: auto;
-	width: 320px;
-	height: 320px;
-	  top: 0;
-     right: 0;
-     bottom: 0;
-     left: 0;
-}

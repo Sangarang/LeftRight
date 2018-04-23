@@ -13,9 +13,8 @@ position: absolute;
 .bt1{
 position: absolute;
      margin: auto;
-     top: 10;
      right: 0;
-     bottom: 0;
+     bottom: 20%;
      left: 0;
      width: 100px;
      height: 100px;

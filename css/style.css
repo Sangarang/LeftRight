@@ -13,9 +13,25 @@ position: absolute;
 .bt1{
 position: absolute;
      margin: auto;
-     right: 0;
+     right: auto;
      bottom: 20%;
      left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: #f2b179;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+
+.bt2{
+position: absolute;
+     margin: auto;
+     right: 0;
+     bottom: 20%;
+     left: auto;
      width: 100px;
      height: 100px;
 	 background-color: #f2b179;

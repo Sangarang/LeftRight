@@ -5,18 +5,40 @@
 
 
 
-<div class="bt1">
+<button class="bt1" onclick="leftarrow()">
+<div class="la">
 </div>
+</button>
 
 
-<div class="bt2">
+<button class="bt2" onclick="rightarrow()">
+<div class="ra">
 </div>
+</button>
 
 </div>
+<script>
+var input = document.getElementsByTagName("HTML")[0];
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 37) {
+        leftarrow();
+    }
+	else
+	 if (event.keyCode === 39) {
+        rightarrow();
+    }
+});
 
+function leftarrow(){
+alert('Left Arrow Clicked!')
+}
 
+function rightarrow(){
+alert('Right Arrow Clicked!')
+}
 
-
+</script>
 
 
 
